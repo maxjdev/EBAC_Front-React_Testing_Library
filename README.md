@@ -1,29 +1,34 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="90px">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="90px">
-  <img src="https://testing-library.com/img/octopus-64x64.png" width="90px"><br><br>
-  <h1>Project: React Testing Lib</h1>
+
+  <h1>Exercise: React Testing Lib</h1>
+
+  ### Techs Used
+
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+  ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+  
 </div>
 
 ## Description
 
 This test suite checks the behavior of the React PostComment component, which represents a comment form in an application. The first test ensures that the component is rendered correctly by checking whether the "Comment" button is present in the interface. The second test simulates adding two consecutive comments. It uses the @testing-library/react testing library to interact with DOM elements by entering text in comment fields and clicking the submit button. After adding comments, the test checks whether the number of comment elements rendered is equal to 2, thus validating the correct functioning of the comment addition functionality.
 
-## Starting Project
+## How to Start the Project
 
-1. Clone the repository.
+- **Clone the repository:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/your-username/repository-name.git
 ```
-2. access the local repository directory.
+- **Open the project directory:**
 ```bash
-cd <repository-directory>
+cd repository-name
 ```
-3. Install the dependencies.
+- **Install project dependencies:**
 ```bash
 npm install
 ```
-4. Run the project locally.
+- **Start:**
 ```bash
 npm start
 ```
@@ -43,8 +48,3 @@ We welcome and appreciate your contributions to this project! Whether you have s
 ## Feedback and Issues
 
 If you have contributions, suggestions, or feedback, feel free to open an issue.
-
-<div align="center">
-  <h2>Full Stack Developer Java: Front-End</h2>
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="100px">
-</div>
